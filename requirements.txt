@@ -1,5 +1,0 @@
-streamlit
-pandas
-numpy
-pillow
-pickle5
