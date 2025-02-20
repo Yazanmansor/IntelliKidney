@@ -3,8 +3,7 @@ import pickle # Loading and Saving ML Models
 import pandas as pd
 import numpy as np
 from PIL import Image
-from sklearn.impute import KNNImputer
-from sklearn.preprocessing import LabelEncoder
+
 
 
 # Function to PreProcessing Input Data
