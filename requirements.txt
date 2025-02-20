@@ -1,6 +1,5 @@
-streamlit 
-pickle 
+streamlit
 pandas
 numpy
-PIL
-sklearn
+pillow
+pickle5
