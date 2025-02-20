@@ -76,8 +76,8 @@ def transform_with_lda(input_data, model_path="trained_ida_model.pkl"):
     return transformed_data
 
 # Loading the Orginal Data
-#Data = pd.read_csv('PreProcessdData.csv')
-#Data = Data.drop(['Class' , 'Unnamed: 0'] , axis = 1 ) 
+Data = pd.read_csv('PreProcessdData.xls.')
+Data = Data.drop(['Class' , 'Unnamed: 0'] , axis = 1 ) 
 
 # Loading the Model
 with open("Best_model.pkl", "rb") as file:
